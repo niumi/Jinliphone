@@ -1,0 +1,414 @@
+/*导航样式开始*/
+.nav{
+    width: 100%;
+    height: 103px;
+    background-color: #FDFDFE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #E4E4E4;
+    z-index: 555;
+}
+.logo>img{
+    margin-top: 27px;
+    vertical-align: middle;
+    float: left;
+}
+.nav_bar{
+    width: 966px;
+    height: 103px;
+    float: left;
+}
+.nav_bar_top{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 21px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.nav_bar ul li{
+    float:right;
+}
+.nav_bar_top li:last-child>a,.nav_bar_top li:first-child>a>span{
+    color:#ef4222;
+}
+.nav_bar_top a{
+    font-size: 12px;
+    color: darkgrey;
+}
+.nav_bar_top span{
+    color: #ddd;
+    margin: 0 5px;
+}
+.nav_bar_bottom{
+    width: 100%;
+    height: 52px;
+}
+.nav_bar_bottom input{
+    border: 1px solid rgb(229, 226, 226);
+}
+.nav_bar_bottom a{
+    color: #000;
+    font-size: 16px;
+    padding: 0 26px;
+}
+.nav_bar_bottom.search{
+    width: 170px;
+    height: 30px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+.nav_bar_bottom input{
+    width: 165px;
+    height: 28px;
+    padding-left: 1px;
+    margin-left: 120px;
+}
+.nav_bar_bottom li{
+    height: 52px;
+}
+/*隐藏样式开始*/
+.nav_hidden{
+    width: 100%;
+    height: 245px;
+    background-color:rgba(255,255,255,.9);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+.nav_bar_bottom>ul>li>.nav_hidden>div{
+    width: 15%;
+    height: 100%;
+    margin: 0 2%;
+    float: left;
+    background: pink;
+}
+.nav_bar_bottom li:hover>.nav_hidden{
+    display: block;
+}
+/*隐藏样式结束*/
+
+/*登录样式开始*/
+.wrapper{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    padding-top: 140px;
+    /* 大盒子 */
+    display: none;
+}
+.loginInfo{
+    width: 400px;
+    height: 300px;
+    background: #fff;
+    margin:  0 auto;
+    padding: 30px;
+}
+.loginInfo input{
+    border: 1px solid black;
+    margin-left: 0;
+}
+/*登录样式结束*/
+
+/*导航样式结束*/
+
+/*banner样式开始*/
+.banner{
+    width: 100%;
+}
+.banner_img{
+    height: 640px;
+    margin-top: 104px;
+    margin-left: -310px;
+}
+/*banner样式结束*/
+
+/*热卖推荐样式开始*/
+.hot_box{
+    width: 100%;
+    height: 785px;
+}
+.hot_box_left{
+    width: 305px;
+    height: 785px;
+    background-image: url("../images/05_1520212662703.jpg");
+    float: left;
+}
+.hot_box_right{
+    width: 891px;
+    height: 785px;
+    float: left;
+}
+.hot_box_right>div{
+    width: 290px;
+    height: 390px;
+    margin: 0 0 5px 7px;
+    background-color: #FDFDFE;
+    float: left;
+}
+.hot_box_right>div>div{
+    width: 290px;
+    height: 240px;
+    margin-top: 25px;
+    position: relative;
+}
+.img_box>img{
+    width:120px;
+    position: absolute;
+    top: 0;
+    left: 85px;
+}
+.img_box:hover>.back{
+    left: 55px;
+    transition: all 1s;
+}
+.img_box:hover>.face{
+    left: 115px;
+    transition: all 1s;
+}
+/*热卖推荐样式结束*/
+
+/*明星产品样式开始*/
+.start{
+    width: 100%;
+    height: 451px;
+    background-color: #FDFDFE;
+}
+.start_box>div{
+    width: 390px;
+    height: 270px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 45px;
+    position: relative;
+}
+.start_box>div:last-child{
+    margin-right: 0;
+}
+.start_box ul{
+    position: absolute;
+    left: 220px;
+    top: 95px;
+    text-align: left;
+    color: #fdf7f9;
+    font-size: 16px;
+}
+.start_box ul span{
+    font-size: 18px;
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+}
+/*明星产品样式结束*/
+
+/*精美配件样式开始*/
+.beauty{
+    overflow: hidden;
+}
+.warp{
+    margin: 0 auto;
+    width: 1196px;
+}
+.tittle{
+    font-weight: normal;
+    height: 45px;
+    line-height: 45px;
+    padding-top: 45px;
+    font-size: 30px;
+}
+.more{
+    margin-bottom: 15px;
+    text-align: right;
+}
+.more>a{
+    color: #000;
+    font-size: 14px;
+}
+.more>a:hover{
+    color: #ef4222;
+}
+a:hover{
+    color: #ef4222;
+}
+.beauty_box{
+    width: 1196px;
+    margin-top: 15px;
+}
+.beauty_box>div{
+    width: 386px;
+    height: 343px;
+    background-color: #FFFFFF;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    float: left;
+    position: relative;
+}
+.beauty_box>div:nth-child(3n){
+    margin-right:0;
+}
+.beauty_text{
+    width: 100%;
+    height: 115px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.goods_tittle{
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    color: #0f0e0e;
+    margin-top: 15px;
+}
+.goods_desc{
+    color: #9e9e9e;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 3px;
+}
+.goods_price{
+    color: #f06261;
+    font-size: 24px;
+    margin-top: 2px;
+}
+.goods_price>span{
+    font-size: 18px;
+    margin-right: 2px;
+}
+/*精美配件样式结束*/
+
+/*品牌热卖样式开始*/
+.blank{
+    width: 100%;
+    height: 514px;
+    background-color: #FDFDFE;
+
+ }
+.blank_box{
+    width: 100%;
+}
+.blank_box>div{
+    width: 386px;
+    height: 377px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    float: left;
+    margin-top: 45px;
+}
+.blank_box>div:last-child{
+    margin-right: 0;
+}
+/*品牌热卖样式结束*/
+
+/*页脚1样式开始*/
+.footer1{
+    width: 100%;
+    height: 46px;
+    padding: 40px 0;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #FDFDFE;
+}
+.footer1_box{
+    width: 100%;
+    height: 46px;
+}
+.footer1_box>div{
+    width: 291px;
+    height: 46px;
+    float: left;
+}
+.footer1_box_left{
+    width: 40px;
+    height: 100%;
+    margin-right: 10px;
+    float: left;
+}
+.footer1_box_right{
+    width: 251px;
+    height: 100%;
+    text-align:left;
+    font-size: 16px;
+    color: #777;
+}
+.footer1_box_right:hover{
+    color: red;
+}
+/*页脚1样式结束*/
+
+/*页脚2样式开始*/
+.footer2{
+    width: 100%;
+    height: 231px;
+    padding: 30px 0;
+}
+.footer2 ul{
+    float: left;
+    width: 215px;
+    text-align: left;
+}
+.footer2 ul li {
+    height: 33px;
+    line-height: 33px;
+}
+.footer2 ul h4{
+    color: #777;
+    font-weight: normal;
+    font-size: 16px;
+}
+.footer2 ul a{
+    font-size: 12px;
+    color: #777;
+}
+.erweima{
+    float: left;
+}
+.erweima>img{
+    border: 3px solid #ccc;
+    padding: 3px;
+}
+.erweima>p{
+    color: #999;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+}
+/*页脚2样式结束*/
+
+/*黑色页脚样式开始*/
+.footer_black{
+    width: 100%;
+    height: 117px;
+    padding: 20px 0;
+    background-color: #333;
+    font-size: 12px;
+    text-align: left;
+    color: #999;
+}
+.one{
+    height: 23px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+.two{
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 8px;
+}
+.three{
+    height: 16px;
+}
+.footer_black li{
+    float: left;
+}
+.footer_black a{
+    color: #999;
+}
+.footer_black ul span{
+    color: #999;
+    margin: 0 10px;
+}
+/*黑色页脚样式结束*/

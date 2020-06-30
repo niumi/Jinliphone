@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>金立手机官网—金立手机及配件官方正品专卖网站_金立全面全面屏s11新品首发</title>
+</head>
+<body> 
+<script src="js/jquery-1.12.3.min.js"></script>
+<!--导航栏开始-->
+<div class="nav">
+    <div class="warp">
+        <div class="logo">
+            <img src="images/logo.png" alt=""/>
+        </div>
+        <div class="nav_bar">
+            <div class="nav_bar_top">
+                <ul>
+                    <li><a href="#">购物车(<span>0</span>)</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li>
+                        <a href="javascript:void(0);" id="login">原账号登录</a><span>|</span>
+                        <!--登录页面开始-->
+                        <p class='userName'></p>
+                        <div class="wrapper">
+                            <div class="loginInfo">
+                                <span class='msg'></span><br>
+                                用户： <input type="text" class='name'><br>
+                                密码： <input type="password" class='password'><br>
+                                验证码: <input type="text" class='code'><img src="images/yanzheng.png" alt="">
+                                <br>
+                                <a href="javascript:void(0);" id="login_in">登录</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!--登录页面结束-->
+                    <li><a href="#">amigo账号登录</a><span>|</span></li>
+                </ul>
+            </div>
+            <div class="nav_bar_bottom">
+                <ul>
+                    <li class="search">
+                        <form action="" method="post" name="enter">
+                            <input type="text" placeholder="输入搜索内容" />
+                            <!-- <input type="submit" class="submit" /> -->
+                        </form>
+                    </li>
+                    <li><a href="#">amigoOS</a></li>
+                    <li><a href="#">下载</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">配件</a></li>
+                    <li>
+                        <a href="#">手机</a>
+                        <div class="nav_hidden">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </li>
+                    <li><a href="#">首页</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--导航栏结束-->
+<script>
+     $("#login").click(function(){
+            $(".wrapper").show();
+            $(".name").val('');
+            $(".password").val('');
+            $(".code").val('');
+            $(".msg").html('');
+       })          
+       $(".wrapper").click(function(){
+        $(".wrapper").hide();
+       })
+       $(".loginInfo").click(function(e){
+            e.stopPropagation();
+       })
+</script>
+
+<!--banner开始-->
+<div class="banner">
+    <img src="images/04_1515047442501.jpg" alt="" class="banner_img"/>
+</div>
+<!--banner结束-->
+
+<!--明星产品开始-->
+<div class="start">
+    <div class="warp">
+        <h3 class="tittle">明星产品</h3>
+        <div class="start_box">
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514454113062.jpg" alt=""/>
+                <ul>
+                    <li><span>.</span>超清全面屏</li>
+                    <li><span>.</span>超高性价比</li>
+                    <li><span>.</span>4GB+64GB</li>
+                </ul>
+            </div>
+            <div onclick="window.open('details.html')">
+                <img src="images/19_1516348649876.jpg" alt=""/>
+                <ul>
+                    <li><span>.</span>前置2000万柔光双摄</li>
+                    <li><span>.</span>后置1600万双摄</li>
+                    <li><span>.</span>硬件级实时虚化</li>
+                </ul>
+            </div>
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514454181297.jpg" alt=""/>
+                <ul>
+                    <li><span>.</span>6.01英寸超清全面屏</li>
+                    <li><span>.</span>内置安全加密芯片</li>
+                    <li><span>.</span>后置1600万双摄</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--明星产品结束-->
+
+<!--热卖推荐开始-->
+<div class="hot">
+    <div class="warp">
+        <h3 class="tittle">热卖推荐</h3>
+        <div class=" more"><a href="#">...更多...</a></div>
+        <div class="hot_box">
+            <div class="hot_box_left"></div>
+            <div class="hot_box_right">
+                <div onclick="window.open('details.html')">
+                    <div class="img_box">
+                        <img src="images/28_1514451535446.png" alt="" class="back" />
+                        <img src="images/28_1514451528464.png" alt="" class="face"/>
+                    </div>
+                    <p class="goods_tittle">金钢3</p>
+                    <p class="goods_desc">5.5英寸高清全面屏、4000mAh大电量</p>
+                    <p class="goods_price"><span>¥</span>1199</p>
+                </div>
+                <div onclick="window.open('details.html')">
+                    <div class="img_box">
+                        <img src="images/28_1514451535446.png" alt="" class="back" />
+                        <img src="images/28_1514451528464.png" alt="" class="face"/>
+                    </div>
+                    <p class="goods_tittle">金钢3</p>
+                    <p class="goods_desc">5.5英寸高清全面屏、4000mAh大电量</p>
+                    <p class="goods_price"><span>¥</span>1199</p>
+                </div>
+                <div onclick="window.open('details.html')">
+                    <div class="img_box">
+                        <img src="images/28_1514451535446.png" alt="" class="back" />
+                        <img src="images/28_1514451528464.png" alt="" class="face"/>
+                    </div>
+                    <p class="goods_tittle">金钢3</p>
+                    <p class="goods_desc">5.5英寸高清全面屏、4000mAh大电量</p>
+                    <p class="goods_price"><span>¥</span>1199</p>
+                </div>
+                <div onclick="window.open('details.html')">
+                    <div class="img_box">
+                        <img src="images/28_1514451535446.png" alt="" class="back" />
+                        <img src="images/28_1514451528464.png" alt="" class="face"/>
+                    </div>
+                    <p class="goods_tittle">金钢3</p>
+                    <p class="goods_desc">5.5英寸高清全面屏、4000mAh大电量</p>
+                    <p class="goods_price"><span>¥</span>1199</p>
+                </div>
+                <div onclick="window.open('details.html')">
+                    <div class="img_box">
+                        <img src="images/28_1514451535446.png" alt="" class="back" />
+                        <img src="images/28_1514451528464.png" alt="" class="face"/>
+                    </div>
+                    <p class="goods_tittle">金钢3</p>
+                    <p class="goods_desc">5.5英寸高清全面屏、4000mAh大电量</p>
+                    <p class="goods_price"><span>¥</span>1199</p>
+                </div>
+                <div onclick="window.open('details.html')">
+                    <div class="img_box">
+                        <img src="images/28_1514451535446.png" alt="" class="back" />
+                        <img src="images/28_1514451528464.png" alt="" class="face"/>
+                    </div>
+                    <p class="goods_tittle">金钢3</p>
+                    <p class="goods_desc">5.5英寸高清全面屏、4000mAh大电量</p>
+                    <p class="goods_price"><span>¥</span>1199</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--热卖推荐结束-->
+
+<!--精美配件开始-->
+<div class="beauty">
+    <div class="warp">
+        <h3 class="tittle">精美配件</h3>
+        <div class=" more"><a href="#">...更多...</a></div>
+        <div class="beauty_box">
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514453044261.jpg" alt=""/>
+                <div class="beauty_text">
+                    <p class="goods_tittle">线控自拍杆</p>
+                    <p class="goods_desc">迷你携带，线控美拍</p>
+                    <p class="goods_price"><span>¥</span>49</p>
+                </div>
+            </div>
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514453089776.jpg" alt=""/>
+                <div class="beauty_text">
+                    <p class="goods_tittle">Micro USB数据线</p>
+                    <p class="goods_desc">高速数据传输</p>
+                    <p class="goods_price"><span>¥</span>20</p>
+                </div>
+            </div>
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514453165062.jpg" alt=""/>
+                <div class="beauty_text">
+                    <p class="goods_tittle">旅行充电器</p>
+                    <p class="goods_desc">流线腰身，高效充电</p>
+                    <p class="goods_price"><span>¥</span>40</p>
+                </div>
+            </div>
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514453140686.jpg" alt=""/>
+                <div class="beauty_text">
+                    <p class="goods_tittle">快充充电器</p>
+                    <p class="goods_desc">高速快充，安全节能</p>
+                    <p class="goods_price"><span>¥</span>69</p>
+                </div>
+            </div>
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514453197940.jpg" alt=""/>
+                <div class="beauty_text">
+                    <p class="goods_tittle">HiFi耳机</p>
+                    <p class="goods_desc">HI-FI魔音，震撼享受</p>
+                    <p class="goods_price"><span>¥</span>69</p>
+                </div>
+            </div>
+            <div onclick="window.open('details.html')">
+                <img src="images/28_1514453223487.jpg" alt=""/>
+                <div class="beauty_text">
+                    <p class="goods_tittle">贴膜</p>
+                    <p class="goods_desc">高清透光，耐磨防油污</p>
+                    <p class="goods_price"><span>¥</span>19</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--精美配件开始-->
+
+<!--品牌热卖开始-->
+<div class="blank">
+    <div class="warp">
+        <h3 class="tittle">品牌动态</h3>
+        <div class="blank_box">
+            <div>
+                <img src="images/01_1517453309499.jpg" alt=""/>
+            </div>
+            <div>
+                <img src="images/01_1517453382045.jpg" alt=""/>
+            </div>
+            <div>
+                <img src="images/01_1517453664732.jpg" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+<!--品牌热卖结束-->
+
+<!--页脚1开始-->
+<div class="footer1">
+    <div class="warp">
+        <div class="footer1_box">
+            <div>
+                <div class="footer1_box_left">
+                    <img src="images/QQ图片20190307195922.png" alt=""/>
+                </div>
+                <div class="footer1_box_right">
+                    7天
+                    <br/>
+                    退货保障
+                </div>
+            </div>
+            <div>
+                <div class="footer1_box_left">
+                    <img src="images/QQ图片20190307195922.png" alt=""/>
+                </div>
+                <div class="footer1_box_right">
+                    7天
+                    <br/>
+                    退货保障
+                </div>
+            </div>
+            <div>
+                <div class="footer1_box_left">
+                    <img src="images/QQ图片20190307195922.png" alt=""/>
+                </div>
+                <div class="footer1_box_right">
+                    7天
+                    <br/>
+                    退货保障
+                </div>
+            </div>
+            <div>
+                <div class="footer1_box_left">
+                    <img src="images/QQ图片20190307195922.png" alt=""/>
+                </div>
+                <div class="footer1_box_right">
+                    7天
+                    <br/>
+                    退货保障
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--页脚1结束-->
+
+<!--页脚2开始-->
+<div class="footer2">
+    <div class="warp">
+        <ul>
+            <li><h4>关于金立</h4></li>
+            <li><a href="#">企业荣誉</a></li>
+            <li><a href="#">金立体验店</a></li>
+            <li><a href="#">代理商专区</a></li>
+            <li><a href="#">企业荣誉</a></li>
+            <li><a href="#">企业荣誉</a></li>
+            <li><a href="#">供应/服务商需求咨询</a></li>
+        </ul>
+        <ul>
+            <li><h4>新闻资讯</h4></li>
+            <li><a href="#">公司新闻</a></li>
+            <li><a href="#">媒体报道</a></li>
+        </ul>
+        <ul>
+            <li><h4>购物指南</h4></li>
+            <li><a href="#">购物流程</a></li>
+            <li><a href="#">支付方式</a></li>
+            <li><a href="#">配送说明及费运</a></li>
+            <li><a href="#">订单管理</a></li>
+            <li><a href="#">购买常见问题</a></li>
+            <li><a href="#">预置应用公示</a></li>
+        </ul>
+        <ul>
+            <li><h4>售后服务</h4></li>
+            <li><a href="#">售后政策</a></li>
+            <li><a href="#">售后服务网点</a></li>
+            <li><a href="#">上门维修</a></li>
+            <li><a href="#">签收须知</a></li>
+            <li><a href="#">物流查询</a></li>
+        </ul>
+        <ul>
+            <li><h4>关于金立</h4></li>
+            <li><span>新浪微博</span></a></li>
+            <li><span>腾讯微博</span></a></li>
+            <li><span>QQ空间</span></a></li>
+        </ul>
+        <div class="erweima">
+            <img src="images/code.png" alt=""/>
+            <p>扫一扫关注微信</p>
+        </div>
+    </div>
+</div>
+<!--页脚2结束-->
+
+<!--黑色页脚开始-->
+<div class="footer_black">
+    <div class="warp">
+        <div class="one">
+            <ul>
+                <li><a href="#">网站地图</a><span>|</span></li>
+                <li><a href="#">集团下属公司</a></li>
+            </ul>
+        </div>
+        <div class="two">
+            增值电信业务经营许可证：
+            <a href="#">粤B2-20120350</a>
+            <a href="#">粤ICP备05087105号</a>
+            <a href="#">粤网文[2015]2233-484号</a>
+            <a href="#">粤网文[2015]2233-484号</a>
+            <img src="images/b.png" alt=""/>
+            <img src="images/govIcon.gif" alt="" style="width: 33px"/>
+            <img src="images/b.png" alt=""/>
+        </div>
+        <div class="three">Copyright © 2013 深圳市金立通信设备有限公司 版权所有 .</div>
+    </div>
+</div>
+<!--黑色页脚结束-->
+</body>
+</html>
